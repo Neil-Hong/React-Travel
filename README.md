@@ -1,3 +1,29 @@
+# Introduction
+<p>This website is a small travel website. Users can choose their favourite travel routes on this website.</p>
+
+It is composed of searching module, register module, signIn module,shopping cart module and payment module. 
+
+The entire website is developed in react framework and the state controller using the react-redux and redux-toolkit, all pages are connected by using react-router-dom V6.
+
+# Technology Stack
+
+React, JavaScript, TypeScript, CSS, react-router-dom(V6), React-Redux, redux-tool-kit, Antd design, react-i18next, 
+
+# Function
+ - Language Change:
+ <p>By using the react-i18next, users can change language by clicking the language button on the top-left of the homepage.</p>
+ 
+ - Route Searching:
+ <p>Users can type their prefer travel destinaion in the search input blocks, once press search button, the related travel routes information will be showed.
+ If users press search button or press enter key without typing any word, it will automatically direct to search page.</p>
+ 
+ - Register:
+ <p>Users can register an account by clicking the register button on the top-right of the page. It will navigate to the register page, once user complete the register, all data will be stored on backend database and automatically navigate to the signin page</p>
+
+- SignIn:
+<p>Users can signin if they already have the account. Once the users complete signin, due to the redux, users signin state will be kept among all pages</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
