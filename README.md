@@ -20,9 +20,14 @@ React, JavaScript, TypeScript, CSS, react-router-dom(V6), React-Redux, redux-too
  - Register:
  <p>Users can register an account by clicking the register button on the top-right of the page. It will navigate to the register page, once user complete the register, all data will be stored on backend database and automatically navigate to the signin page</p>
 
-- SignIn:
-<p>Users can signin if they already have the account. Once the users complete signin, due to the redux, users signin state will be kept among all pages</p>
+- SignIn & SignOut:
+<p>Users can signin if they already have the account. Once the users complete signin action, due to the redux, users signin state will be kept among all pages. Users' signin state will no longer kept if users click the signout button.</p>
 
+- ShoppingCart:
+<p>Users once select the items and press add to cart button in the item page, items data will be send to the backend database and show on the shopping cart. Users can process to the checkout module by clicking the shoppingCart button on the top-right of the screen</p>
+
+- CheckOut:
+<p>After selecting the items, users will navigated to the checkout page. In this page, users can see all item details they have chosed and the total price and discount price on the left. Once users click on the process order, it will automatically navigate to the payment page.</p>
 
 # Getting Started with Create React App
 
