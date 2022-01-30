@@ -5,6 +5,10 @@ It is composed of searching module, register module, signIn module,shopping cart
 
 The entire website is developed in react framework and the state controller using the react-redux and redux-toolkit, all pages are connected by using react-router-dom V6.
 
+# Preview
+![image](https://github.com/Neil-Hong/React-Travel/blob/master/previewImage/preview-1.png)
+![image](https://github.com/Neil-Hong/React-Travel/blob/master/previewImage/DetailPage.png)
+
 # Technology Stack
 
 React, JavaScript, TypeScript, CSS, react-router-dom(V6), React-Redux, redux-tool-kit, Antd design, react-i18next, 
@@ -19,12 +23,18 @@ React, JavaScript, TypeScript, CSS, react-router-dom(V6), React-Redux, redux-too
  
  - Register:
  <p>Users can register an account by clicking the register button on the top-right of the page. It will navigate to the register page, once user complete the register, all data will be stored on backend database and automatically navigate to the signin page</p>
+ 
+ ![image](https://github.com/Neil-Hong/React-Travel/blob/master/previewImage/register.png)
 
 - SignIn & SignOut:
 <p>Users can signin if they already have the account. Once the users complete signin action, due to the redux, users signin state will be kept among all pages. Users' signin state will no longer kept if users click the signout button.</p>
 
+![image](https://github.com/Neil-Hong/React-Travel/blob/master/previewImage/SignIn.png)
+
 - ShoppingCart:
 <p>Users once select the items and press add to cart button in the item page, items data will be send to the backend database and show on the shopping cart. Users can process to the checkout module by clicking the shoppingCart button on the top-right of the screen</p>
+
+![image](https://github.com/Neil-Hong/React-Travel/blob/master/previewImage/ShoppingCart.png)
 
 - CheckOut:
 <p>After selecting the items, users will navigated to the checkout page. In this page, users can see all item details they have chosed and the total price and discount price on the left. Once users click on the process order, it will automatically navigate to the payment page.</p>
